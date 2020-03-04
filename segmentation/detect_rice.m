@@ -11,12 +11,12 @@ se = strel('disk',12);
 se1 = strel('disk',5);
 se2 = strel('disk',2);
 
-% membaca citra RGB
+% read  RGB image
 im = imread('rice1.jpg');
 %im = imread('ronaldo.png');
 figure,imshow(im);
 
-% mengkonversi citra RGB menjadi grayscale
+% Converting RGB image to grayscale image
 im_gray = rgb2gray(im);
 figure,imshow(im_gray);
 
